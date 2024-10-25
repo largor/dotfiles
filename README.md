@@ -1,5 +1,5 @@
 # Introduction
-This are my current dotfiles for a Arch system running Hyprland.
+This are my dotfiles for a Arch system running Hyprland.
 
 # Applications
 - launcher: fuzzel
