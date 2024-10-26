@@ -1,5 +1,5 @@
 # Introduction
-This are my dotfiles for a Arch system running Hyprland.
+This are my dotfiles for a Arch system running Hyprland.  Catppuccin theme is used across qt & gtk programs.
 
 # Applications
 - launcher: fuzzel
@@ -10,4 +10,4 @@ This are my dotfiles for a Arch system running Hyprland.
 - theme: catppuccin
 
 # Installation 
-A script is included to help set up dependencies.  
+A script is included to help set up dependencies, and install doom & hyperbar.
