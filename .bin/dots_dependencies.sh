@@ -6,7 +6,7 @@ curl -fsSL https://bun.sh/install | bash && \
   sudo ln -s $HOME/.bun/bin/bun /usr/local/bin/bun
 
 #some dependencies and programs i use
-sudo pacman -S git emacs vim kvantum fastfetch\
+sudo pacman -S emacs vim kvantum fastfetch\
 	fuzzel kitty qt5ct qt6ct ranger hypridle\
 	hyprlock hyprpaper pipewire libgtop bluez\
 	bluez-utils btop networkmanager dart-sass\
