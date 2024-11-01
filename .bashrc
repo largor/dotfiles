@@ -11,7 +11,7 @@ alias grep='grep --color=auto'
 PS1='\A [\u ${PWD/*\//}]$ '
 PS2='> '
 export PATH="~/.config/emacs/bin:$PATH"
-
+export PATH="~/.bin:$PATH"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
