@@ -8,7 +8,7 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='\A \u | (${PWD/*\//}) $ '
+PS1='\A [\u ${PWD/*\//}]$ '
 PS2='> '
 export PATH="~/.config/emacs/bin:$PATH"
 
