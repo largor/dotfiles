@@ -28,7 +28,8 @@ yay -S grimblast-git gpu-screen-recorder hyprpicker\
 	pokeget openssl-1.0 rclone-browser\
 	heroic-games-launcher-bin nicotine-plus\
 	jellyfin-media-player mopidy-mpd mopidy-subidy\
-	brave-bin signal-desktop catppuccin-gtk-theme-macchiato
+	brave-bin signal-desktop catppuccin-gtk-theme-macchiato\
+ 	papirus-folders-catppuccin-git 
 
 #Bun is dependency for HyprPanel
 curl -fsSL https://bun.sh/install | bash && \
