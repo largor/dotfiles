@@ -36,8 +36,9 @@ curl -fsSL https://bun.sh/install | bash && \
   sudo ln -s $HOME/.bun/bin/bun /usr/local/bin/bun
 
 #installing HyprPanel
-git clone https://github.com/Jas-SinghFSU/HyprPanel.git && \
-  ln -s $(pwd)/HyprPanel $HOME/.config/ags
+mkdir $HOME/.bin
+git clone https://github.com/Jas-SinghFSU/HyprPanel.git $HOME/.bin && \
+  ln -s $HOME/.bin/HyprPanel $HOME/.config/ags
 $HOME/.config/ags/install_fonts.sh
 
 #installing doom emacs
