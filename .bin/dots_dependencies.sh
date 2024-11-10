@@ -44,4 +44,4 @@ $HOME/.config/ags/install_fonts.sh
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ~/.config/emacs/bin/doom install
 
-cp -r $HOME/dotfiles $HOME
+cp -rf $HOME/dotfiles/. $HOME
