@@ -30,7 +30,8 @@ yay -S grimblast-git gpu-screen-recorder hyprpicker\
 	heroic-games-launcher-bin nicotine-plus\
 	jellyfin-media-player mopidy-mpd mopidy-subidy\
 	brave-bin signal-desktop catppuccin-gtk-theme-macchiato\
- 	papirus-folders-catppuccin-git downgrade cava libretro
+ 	papirus-folders-catppuccin-git downgrade cava libretro\
+  	epy-ereader-git
 
 #Bun is dependency for HyprPanel
 curl -fsSL https://bun.sh/install | bash && \
