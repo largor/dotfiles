@@ -21,7 +21,8 @@ sudo pacman -S emacs vim kvantum fastfetch\
 	keepassxc mpv mpd ncmpcpp feh dolphin qbittorrent\
 	steam unzip ark texlive spotify-launcher audiocd-kio\
 	gnome-disk-utility dosfstools ntfsprogs mopidy\
-	python-pip nwg-look nwg-displays ispell libreoffice-still
+	python-pip nwg-look nwg-displays ispell libreoffice-still\
+ 	retroarch
 
 yay -S grimblast-git gpu-screen-recorder hyprpicker\
 	matugen-bin python-gpustat aylurs-gtk-shell-git\
@@ -29,7 +30,7 @@ yay -S grimblast-git gpu-screen-recorder hyprpicker\
 	heroic-games-launcher-bin nicotine-plus\
 	jellyfin-media-player mopidy-mpd mopidy-subidy\
 	brave-bin signal-desktop catppuccin-gtk-theme-macchiato\
- 	papirus-folders-catppuccin-git downgrade cava
+ 	papirus-folders-catppuccin-git downgrade cava libretro
 
 #Bun is dependency for HyprPanel
 curl -fsSL https://bun.sh/install | bash && \
