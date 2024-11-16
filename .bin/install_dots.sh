@@ -47,4 +47,8 @@ $HOME/.config/ags/install_fonts.sh
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ~/.config/emacs/bin/doom install
 
+#tmux
+mkdir -p ~/.config/tmux/plugins/catppuccin
+git clone -b v2.1.0 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+
 cp -rf $HOME/dotfiles/. $HOME
