@@ -22,7 +22,8 @@ sudo pacman -S emacs vim kvantum fastfetch\
 	steam unzip ark texlive spotify-launcher audiocd-kio\
 	gnome-disk-utility dosfstools ntfsprogs mopidy\
 	python-pip nwg-look nwg-displays ispell libreoffice-still\
- 	retroarch calibre sdcv tmux man ttf-nerd-fonts-symbols
+ 	retroarch calibre sdcv tmux man ttf-nerd-fonts-symbols\
+  	blueberry
 
 yay -S grimblast-git gpu-screen-recorder hyprpicker\
 	matugen-bin python-gpustat aylurs-gtk-shell-git\
