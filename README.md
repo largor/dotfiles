@@ -5,7 +5,7 @@ This are my dotfiles for a Arch system running Hyprland.  Catppuccin theme is us
 - launcher: fuzzel
 - file manager: Ranger, dolphin
 - terminal: kitty
-- bar: ags (Hyprbar)
+- bar: ags/Hyprbar (with Waybar as backup)
 - text editor: emacs (doom)
 - theme: catppuccin
 
