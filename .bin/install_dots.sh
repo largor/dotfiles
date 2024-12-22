@@ -19,7 +19,7 @@ sudo pacman -S wireplumber libgtop bluez bluez-utils\
      	feh dolphin qbittorrent	steam unzip ark texlive spotify-launcher\
       	audiocd-kio gnome-disk-utility dosfstools ntfsprogs mopidy python-pip\
        	nwg-look nwg-displays ispell libreoffice-still retroarch calibre sdcv tmux\
-	man ttf-nerd-fonts-symbols blueberry gnome-disk-utility
+	man ttf-nerd-fonts-symbols blueberry
 
 yay -S aylurs-gtk-shell-git grimblast-git gpu-screen-recorder-git hyprpicker matugen-bin\
 	python-gpustat hyprsunset-git hypridle-git pokeget openssl-1.0 rclone-browser\
