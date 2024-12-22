@@ -5,13 +5,22 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["mpd"],
-    "modules-right": ["pulseaudio", "bluetooth", "clock", "tray", "custom/lock", "custom/power"],
+    "modules-right": ["pulseaudio", "bluetooth", "clock", "tray", "idle_inhibitor", "custom/lock", "custom/power"],
     "hyprland/workspaces": {
          "disable-scroll": true,
          "sort-by-name": true,
          "format": " {icon} ",
          "format-icons": {
-             "default": "",
+            "1": "󰼏",
+            "2": "󰼐",
+            "3": "󰼑",
+            "4": "󰼒",
+            "5": "󰼓",
+            "6": "󰼔",
+            "7": "󰼕",
+            "8": "󰼖",
+            "9": "󰼗",
+            "10": "󰿪"
          },
      },
     "tray": {
@@ -27,8 +36,8 @@
 	       "on": " " // Icon shows only when "consume" is on
 	   },
 	   "random-icons": {
-	       "off": "<span color=\"#f53c3c\"> </span> ", // Icon grayed out when "random" is off
-	       "on": " "
+	       "off": "<span color=\"#f53c3c\">  </span> ", // Icon grayed out when "random" is off
+	       "on": "  "
 	   },
 	   "repeat-icons": {
 	       "on": " "
@@ -44,9 +53,9 @@
 	   "tooltip-format-disconnected": "MPD (disconnected)"
     },
     "clock": {
-        "timezone": "Asia/Dubai",
+        "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%d/%m/%Y}",
+        "format-alt": "  {:%d/%m/%Y}",
         "format": "   {:%H:%M}"
     },
 //  "backlight": {
@@ -94,5 +103,12 @@
         "tooltip": false,
         "on-click": "wlogout &",
         "format": "⏻"
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": " ",
+            "deactivated": " "
+        }
     }
 }
