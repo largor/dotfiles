@@ -39,51 +39,59 @@
 #tray,
 #backlight,
 #clock,
-#battery,
+#cava,
 #pulseaudio,
 #bluetooth,
 #custom-lock,
-#custom-power {
+#custom-power,
+#idle_inhibitor {
   background-color: @surface0;
   padding: 0.5rem 1rem;
   margin: 5px 0;
 }
 
-#clock {
-  color: @blue;
+#mpd{
+  color: @rosewater;
   border-radius: 1rem;
-  margin-right: 1rem;
 }
 
 #pulseaudio {
-  color: @maroon;
+  color: @pink;
   margin-right: 1rem;
   border-radius: 1rem;
 }
 
 #bluetooth {
-  color: @peach;
+  color: @red;
   margin-right: 1rem;
   border-radius: 1rem;
 }
 
-#mpd{
-  color: @mauve;
+#clock {
+  color: @peach;
   border-radius: 1rem;
-}
-
-#custom-lock {
-    border-radius: 1rem 0px 0px 1rem;
-    color: @lavender;
-}
-
-#custom-power {
-    margin-right: 1rem;
-    border-radius: 0px 1rem 1rem 0px;
-    color: @red;
+  margin-right: 1rem;
 }
 
 #tray {
   margin-right: 1rem;
   border-radius: 1rem;
 }
+
+#idle_inhibitor {
+  color: @green;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+#custom-lock {
+    border-radius: 1rem 0px 0px 1rem;
+    color: @sky;
+}
+
+#custom-power {
+    margin-right: 1rem;
+    border-radius: 0px 1rem 1rem 0px;
+    color: @blue;
+}
+
