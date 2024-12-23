@@ -27,14 +27,14 @@ yay -S aylurs-gtk-shell-git grimblast-git gpu-screen-recorder-git hyprpicker mat
 	brave-bin signal-desktop catppuccin-gtk-theme-macchiato papirus-folders-catppuccin-git\
  	downgrade cava libretro	epy-ereader-git nerd-fonts-git
 
-#installing HyprPanel
-mkdir $HOME/.bin
-git clone https://github.com/Jas-SinghFSU/HyprPanel.git $HOME/.bin && \
-cd HyprPanel
-meson setup build
-meson compile -C build
-meson install -C build
-$HOME/.bin/HyprPanel/scripts/install_fonts.sh
+# Install HyprPanel.  Uncommented for now while using Waybar
+# mkdir $HOME/.bin
+# git clone https://github.com/Jas-SinghFSU/HyprPanel.git $HOME/.bin && \
+# cd HyprPanel
+# meson setup build
+# meson compile -C build
+# meson install -C build
+# $HOME/.bin/HyprPanel/scripts/install_fonts.sh
 
 #installing doom emacs
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
