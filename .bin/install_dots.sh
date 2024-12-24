@@ -25,7 +25,7 @@ yay -S aylurs-gtk-shell-git grimblast-git gpu-screen-recorder-git hyprpicker mat
 	python-gpustat hyprsunset-git hypridle-git pokeget openssl-1.0 rclone-browser\
 	heroic-games-launcher-bin nicotine-plus jellyfin-media-player mopidy-mpd mopidy-subidy\
 	brave-bin signal-desktop catppuccin-gtk-theme-macchiato papirus-folders-catppuccin-git\
- 	downgrade cava libretro	epy-ereader-git nerd-fonts-git
+ 	downgrade cava libretro	epy-ereader-git nerd-fonts-git papirus-folders-catppuccin-git
 
 # Install HyprPanel.  Uncommented for now while using Waybar
 # mkdir $HOME/.bin
