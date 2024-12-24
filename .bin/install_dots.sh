@@ -19,13 +19,13 @@ sudo pacman -S wireplumber libgtop bluez bluez-utils\
      	feh dolphin qbittorrent	steam unzip ark texlive spotify-launcher\
       	audiocd-kio gnome-disk-utility dosfstools ntfsprogs mopidy python-pip\
        	nwg-look nwg-displays ispell libreoffice-still retroarch calibre sdcv tmux\
-	man ttf-nerd-fonts-symbols blueberry meson
+	man ttf-nerd-fonts-symbols blueberry meson waybar
 
 yay -S aylurs-gtk-shell-git grimblast-git gpu-screen-recorder-git hyprpicker matugen-bin\
 	python-gpustat hyprsunset-git hypridle-git pokeget openssl-1.0 rclone-browser\
 	heroic-games-launcher-bin nicotine-plus jellyfin-media-player mopidy-mpd mopidy-subidy\
 	brave-bin signal-desktop catppuccin-gtk-theme-macchiato papirus-folders-catppuccin-git\
- 	downgrade cava libretro	epy-ereader-git nerd-fonts-git papirus-folders-catppuccin-git
+ 	downgrade cava libretro	epy-ereader-git
 
 # Install HyprPanel.  Uncommented for now while using Waybar
 # mkdir $HOME/.bin
