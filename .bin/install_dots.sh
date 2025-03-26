@@ -12,7 +12,7 @@
 #mpv for video player.
 sudo pacman -S wireplumber libgtop bluez bluez-utils\
 	btop networkmanager wl-clipboard brightnessctl\
- 	swww python upower pacman-contrib power-profiles-daemon\
+ 	python upower pacman-contrib power-profiles-daemon\
   	gvfs emacs vim kvantum fastfetch fuzzel kitty qt5ct qt6ct\
    	hyprlock hyprpaper pipewire polkit-gnome fortune-mod\
     	cowsay python-pillow pkgfile firefox keepassxc mpv mpd ncmpcpp\
