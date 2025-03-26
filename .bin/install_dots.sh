@@ -11,7 +11,7 @@
 #mpd & ncmpcpp as music player.  Mopidy, mopidy-mpd, and mopidy-subidy allow ncmpcpp to connect to my navidrome server.
 #mpv for video player.
 sudo pacman -S wireplumber libgtop bluez bluez-utils\
-	btop networkmanager dart-sass wl-clipboard brightnessctl\
+	btop networkmanager wl-clipboard brightnessctl\
  	swww python upower pacman-contrib power-profiles-daemon\
   	gvfs emacs vim kvantum fastfetch fuzzel kitty qt5ct qt6ct\
    	hyprlock hyprpaper pipewire polkit-gnome fortune-mod\
