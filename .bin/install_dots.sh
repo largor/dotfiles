@@ -8,25 +8,27 @@
 #gnome-disk-utility is a handy tool for managing disks.
 #dosfstools and ntfsprogs for formating usbs to be compatible with Windows systems (required for use with gnome-disk-utility)
 #yazi & dolphin used for file managers.
-#mpd & ncmpcpp as music player.  Mopidy, mopidy-mpd, and mopidy-subidy allow ncmpcpp to connect to my navidrome server.
+#mpd & ncmpcpp as music player.  
 #mpv for video player.
+#matugen-bin for theme generation when needed.
 sudo pacman -S wireplumber libgtop bluez bluez-utils\
 	btop networkmanager wl-clipboard brightnessctl\
  	python upower pacman-contrib power-profiles-daemon\
   	gvfs emacs vim kvantum fastfetch fuzzel kitty qt5ct qt6ct\
    	hyprlock hyprpaper pipewire polkit-gnome fortune-mod\
-    	cowsay python-pillow pkgfile firefox keepassxc mpv mpd ncmpcpp\
+    	cowsay pkgfile firefox keepassxc mpv mpd ncmpcpp\
      	feh dolphin qbittorrent	steam unzip ark texlive spotify-launcher\
-      	audiocd-kio gnome-disk-utility dosfstools ntfsprogs mopidy python-pip\
+      	audiocd-kio gnome-disk-utility dosfstools ntfsprogs python-pip\
        	nwg-look nwg-displays ispell libreoffice-still retroarch calibre sdcv tmux\
-	man ttf-nerd-fonts-symbols blueberry meson waybar pavucontrol code cliphist\
+	man ttf-nerd-fonts-symbols blueberry waybar pavucontrol code cliphist\
  	wl-clip-persist yazi
 
-yay -S grimblast-git gpu-screen-recorder-git hyprpicker matugen-bin wlogout\
-	python-gpustat hyprsunset-git hypridle-git pokeget openssl-1.0 rclone-browser\
-	heroic-games-launcher-bin nicotine-plus jellyfin-media-player mopidy-mpd mopidy-subidy\
-	brave-bin signal-desktop catppuccin-gtk-theme-macchiato papirus-folders-catppuccin-git\
- 	downgrade cava libretro	epy-ereader-git hyprland-qtutils catppuccin-cursors-macchiato\
+yay -S grimblast-git hyprpicker matugen-bin wlogout\
+	hypridle-git pokeget openssl-1.0 rclone-browser\
+	heroic-games-launcher-bin nicotine-plus jellyfin-media-player\
+ 	brave-bin signal-desktop catppuccin-gtk-theme-macchiato\
+  	papirus-folders-catppuccin-git downgrade cava libretro epy-ereader-git\
+   	hyprland-qtutils catppuccin-cursors-macchiato\
 
 #installing doom emacs
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
