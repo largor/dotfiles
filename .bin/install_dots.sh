@@ -12,23 +12,28 @@
 #mpv for video player.
 #matugen-bin for theme generation when needed.
 sudo pacman -S wireplumber libgtop bluez bluez-utils\
-	btop networkmanager wl-clipboard brightnessctl\
- 	python upower pacman-contrib power-profiles-daemon\
-  	gvfs emacs vim kvantum fastfetch fuzzel kitty qt5ct qt6ct\
-   	hyprlock hyprpaper pipewire polkit-gnome fortune-mod\
-    	cowsay pkgfile firefox keepassxc mpv mpd ncmpcpp\
-     	feh dolphin qbittorrent	steam unzip ark texlive spotify-launcher\
-      	audiocd-kio gnome-disk-utility dosfstools ntfsprogs python-pip\
-       	nwg-look nwg-displays ispell libreoffice-still retroarch calibre sdcv tmux\
-	man ttf-nerd-fonts-symbols blueberry waybar pavucontrol code cliphist\
- 	wl-clip-persist yazi
+    btop networkmanager wl-clipboard brightnessctl\
+    python upower pacman-contrib power-profiles-daemon\
+    gvfs emacs vim kvantum fastfetch fuzzel kitty qt5ct qt6ct\
+    hyprlock hyprpaper hypridle pipewire polkit-gnome fortune-mod\
+    cowsay pkgfile firefox keepassxc mpv mpd ncmpcpp\
+    feh dolphin qbittorrent steam unzip ark texlive spotify-launcher\
+    audiocd-kio gnome-disk-utility dosfstools ntfsprogs python-pip\
+    nwg-look nwg-displays ispell libreoffice-still retroarch calibre sdcv tmux\
+    man ttf-nerd-fonts-symbols blueberry waybar pavucontrol code cliphist\
+    wl-clip-persist yazi
+
+#install yay
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
 
 yay -S grimblast-git hyprpicker matugen-bin wlogout\
-	hypridle-git pokeget openssl-1.0 rclone-browser\
-	heroic-games-launcher-bin nicotine-plus jellyfin-media-player\
- 	brave-bin signal-desktop catppuccin-gtk-theme-macchiato\
-  	papirus-folders-catppuccin-git downgrade cava libretro epy-ereader-git\
-   	hyprland-qtutils catppuccin-cursors-macchiato\
+    pokeget openssl-1.0 rclone-browser\
+    heroic-games-launcher-bin nicotine-plus jellyfin-media-player\
+    brave-bin signal-desktop catppuccin-gtk-theme-macchiato\
+    papirus-folders-catppuccin-git downgrade cava libretro epy-ereader-git\
+    hyprland-qtutils catppuccin-cursors-macchiato ttf-adobe-source-code-pro-fonts
 
 #installing doom emacs
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
@@ -38,4 +43,12 @@ git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 mkdir -p ~/.config/tmux/plugins/catppuccin
 git clone -b v2.1.0 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
 
+#set papirus theme
+papirus-folders -C cat-macchiato-mauve
+
+#install cursors for hyprland
+mkdir ~/.icons
+cp -r /usr/share/icons/catppuccin-macchiato-mauve-cursors ~/.icons/
+
 cp -rf $HOME/dotfiles/. $HOME
+
