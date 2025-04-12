@@ -43,6 +43,7 @@
 #pulseaudio,
 #bluetooth,
 #custom-lock,
+#battery,
 #custom-power,
 #idle_inhibitor {
   background-color: @surface0;
@@ -84,8 +85,13 @@
   border-radius: 1rem;
 }
 
-#custom-lock {
+#battery {
     border-radius: 1rem 0px 0px 1rem;
+    color: @yellow;
+
+}
+
+#custom-lock {
     color: @sky;
 }
 
