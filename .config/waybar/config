@@ -5,7 +5,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["mpd"],
-    "modules-right": ["pulseaudio", "bluetooth", "clock", "tray", "idle_inhibitor", "custom/lock", "custom/power"],
+    "modules-right": ["pulseaudio", "bluetooth", "clock", "tray", "idle_inhibitor", "battery", "custom/lock", "custom/power"],
     "hyprland/workspaces": {
          "disable-scroll": true,
          "sort-by-name": true,
@@ -63,17 +63,16 @@
 //      "format": "{icon}",
 //      "format-icons": ["", "", "", "", "", "", "", "", ""]
 //  },
-//  "battery": {
-//      "states": {
-//         "warning": 30,
-//          "critical": 15
-//      },
-//      "format": "{icon}",
-//      "format-charging": "",
-//      "format-plugged": "",
-//      "format-alt": "{icon}",
-//      "format-icons": ["", "",  "", "", "", "", "", "", "", "", "", ""]
-//  },
+    "battery": {
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+    "format": "{capacity}% {icon}",
+    "format-icons": ["󰂃", "󰁺",  "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    },
+
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{icon} {volume}%",
