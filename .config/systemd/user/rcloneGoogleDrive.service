@@ -1,0 +1,20 @@
+[Unit]
+Description=Rclone mount service
+After=network.target
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=3
+
+[Service]
+Type=simple
+Environment="RCLONE_USER_SOURCE_NAME=G"
+Environment="RCLONE_USER_TARGET_DIRECTORY=/home/largor/Documents/GoogleDrive"
+ExecStart=/bin/sh -c 'exec /usr/bin/rclone mount \${RCLONE_USER_SOURCE_NAME}: \${RCLONE_USER_TARGET_DIRECTORY}'
+ExecStop=/bin/sh -c 'exec /usr/bin/fusermount -uz \${RCLONE_USER_TARGET_DIRECTORY}'
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
