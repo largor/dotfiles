@@ -11,29 +11,30 @@
 #mpd & ncmpcpp as music player.  
 #mpv for video player.
 #matugen-bin for theme generation when needed.
+#feishin is replacement for spotify which can connect to navidrome. stmps is a tui alternative
 sudo pacman -S wireplumber libgtop bluez bluez-utils\
-    btop networkmanager wl-clipboard brightnessctl\
-    python upower pacman-contrib power-profiles-daemon\
-    gvfs emacs vim kvantum fastfetch fuzzel kitty qt5ct qt6ct\
-    hyprlock hyprpaper hypridle pipewire polkit-gnome fortune-mod\
-    cowsay pkgfile firefox keepassxc mpv mpd ncmpcpp\
-    feh dolphin qbittorrent steam unzip ark texlive spotify-launcher\
-    audiocd-kio gnome-disk-utility dosfstools ntfsprogs python-pip\
-    nwg-look nwg-displays ispell libreoffice-still retroarch calibre sdcv tmux\
-    man ttf-nerd-fonts-symbols blueberry waybar pavucontrol code cliphist\
-    wl-clip-persist yazi
+        btop networkmanager wl-clipboard brightnessctl\
+        python upower pacman-contrib power-profiles-daemon\
+        gvfs emacs vim kvantum fastfetch fuzzel kitty qt5ct qt6ct\
+        hyprlock hyprpaper hypridle pipewire polkit-gnome fortune-mod\
+        cowsay pkgfile firefox keepassxc mpv mpd ncmpcpp\
+        feh dolphin qbittorrent unzip ark texlive\
+        audiocd-kio gnome-disk-utility dosfstools ntfsprogs python-pip\
+        nwg-look nwg-displays ispell libreoffice-still retroarch calibre sdcv tmux\
+        man ttf-nerd-fonts-symbols blueberry waybar pavucontrol code cliphist\
+        wl-clip-persist yazi
 
-#install yay
+install yay
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
 yay -S grimblast-git hyprpicker matugen-bin wlogout\
-    pokeget openssl-1.0 rclone-browser\
-    heroic-games-launcher-bin nicotine-plus jellyfin-media-player\
-    brave-bin signal-desktop catppuccin-gtk-theme-macchiato\
-    papirus-folders-catppuccin-git downgrade cava libretro epy-ereader-git\
-    hyprland-qtutils catppuccin-cursors-macchiato ttf-adobe-source-code-pro-fonts
+	pokeget openssl-1.0 heroic-games-launcher-bin feishin stmps-git\
+       	nicotine-plus jellyfin-media-player brave-bin signal-desktop\
+       	catppuccin-gtk-theme-macchiato papirus-folders-catppuccin-git\
+       	downgrade cava libretro epy-ereader-git hyprland-qtutils\
+       	catppuccin-cursors-macchiato ttf-adobe-source-code-pro-fonts
 
 #installing doom emacs
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
@@ -50,5 +51,7 @@ papirus-folders -C cat-macchiato-mauve
 mkdir ~/.icons
 cp -r /usr/share/icons/catppuccin-macchiato-mauve-cursors ~/.icons/
 
-cp -rf $HOME/dotfiles/. $HOME
+# screenshots folder
+mkdir ~/Pictures/Screenshots/
 
+cp -rf $HOME/dotfiles/. $HOME
