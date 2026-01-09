@@ -24,7 +24,7 @@ sudo pacman -S wireplumber libgtop bluez bluez-utils\
         man ttf-nerd-fonts-symbols blueberry waybar pavucontrol code cliphist\
         wl-clip-persist yazi
 
-install yay
+#install yay
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
