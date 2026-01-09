@@ -31,7 +31,7 @@ makepkg -si
 
 yay -S grimblast-git hyprpicker matugen-bin wlogout\
 	pokeget openssl-1.0 heroic-games-launcher-bin feishin stmps-git\
-       	nicotine-plus jellyfin-media-player brave-bin signal-desktop\
+       	nicotine-plus jellyfin-desktop brave-bin signal-desktop\
        	catppuccin-gtk-theme-macchiato papirus-folders-catppuccin-git\
        	downgrade cava libretro epy-ereader-git hyprland-qtutils\
        	catppuccin-cursors-macchiato ttf-adobe-source-code-pro-fonts
