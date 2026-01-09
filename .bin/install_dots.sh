@@ -22,7 +22,7 @@ sudo pacman -S wireplumber libgtop bluez bluez-utils\
         audiocd-kio gnome-disk-utility dosfstools ntfsprogs python-pip\
         nwg-look nwg-displays ispell libreoffice-still retroarch calibre sdcv tmux\
         man ttf-nerd-fonts-symbols blueberry waybar pavucontrol code cliphist\
-        wl-clip-persist yazi
+        wl-clip-persist yazi rclone
 
 #install yay
 git clone https://aur.archlinux.org/yay.git
